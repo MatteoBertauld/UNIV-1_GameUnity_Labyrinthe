@@ -408,6 +408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1661034293}
+  - component: {fileID: 1661034294}
   m_Layer: 0
   m_Name: CameraSuit
   m_TagString: Untagged
@@ -423,7 +424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661034292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.451587, y: -3.5996323, z: -2.2670302}
+  m_LocalPosition: {x: -0.8664322, y: 0, z: 2.097965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -431,6 +432,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661034294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661034292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d3968294210ba4a9d2bb96dfa74a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1712711809}
+  m_AutoTargetPlayer: 1
+  m_UpdateType: 0
+  m_MoveSpeed: 50
+  m_TurnSpeed: 1
+  m_RollSpeed: 0.2
+  m_FollowVelocity: 0
+  m_FollowTilt: 1
+  m_SpinTurnLimit: 90
+  m_TargetVelocityLowerLimit: 4
+  m_SmoothTurnTime: 0.2
 --- !u!1 &1712711803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 878703613c1b05e4b9b915c4b1949f30, type: 3}
@@ -589,7 +613,6 @@ GameObject:
   - component: {fileID: 1963907615}
   - component: {fileID: 1963907618}
   - component: {fileID: 1963907617}
-  - component: {fileID: 1963907616}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -605,36 +628,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963907614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3.5, z: 0.5}
+  m_LocalScale: {x: 1.4773, y: 1.4773, z: 2.0897887}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1661034293}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1963907616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963907614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8d3968294210ba4a9d2bb96dfa74a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target: {fileID: 1712711809}
-  m_AutoTargetPlayer: 1
-  m_UpdateType: 0
-  m_MoveSpeed: 3
-  m_TurnSpeed: 10
-  m_RollSpeed: 1
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 90
-  m_TargetVelocityLowerLimit: 10
-  m_SmoothTurnTime: 0.2
 --- !u!81 &1963907617
 AudioListener:
   m_ObjectHideFlags: 0
