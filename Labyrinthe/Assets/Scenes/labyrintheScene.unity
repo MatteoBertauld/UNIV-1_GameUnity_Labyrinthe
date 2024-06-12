@@ -784,6 +784,7 @@ PrefabInstance:
     - target: {fileID: 417232, guid: d2f192c371f0f7f408ef6d3471aa68ca, type: 3}
       propertyPath: m_RootOrder
       value: 184
+      value: 187
       objectReference: {fileID: 0}
     - target: {fileID: 417232, guid: d2f192c371f0f7f408ef6d3471aa68ca, type: 3}
       propertyPath: m_LocalScale.x
@@ -2017,6 +2018,7 @@ PrefabInstance:
     - target: {fileID: 471828, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471828, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
       propertyPath: m_LocalScale.x
