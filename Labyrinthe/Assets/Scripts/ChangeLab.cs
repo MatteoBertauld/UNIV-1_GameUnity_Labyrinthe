@@ -36,11 +36,11 @@ public class ChangeLab : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Backspace)) 
         {
             count +=1;
-            if(count >3) 
+            if(count >2) 
             {
                 count = 1;
             }
-            for(int i=1;i<=3;i++) 
+            for(int i=1;i<=2;i++) 
             {
                 GameObject[] objetsWithTag = GameObject.FindGameObjectsWithTag("labyrinthe" + i);
 
