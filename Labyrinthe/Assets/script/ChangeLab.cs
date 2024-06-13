@@ -33,19 +33,20 @@ public class ChangeLab : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.Backspace)) 
+        if(Input.GetKeyDown(KeyCode.E)) 
         {
             count +=1;
-            if(count >2) 
+            if(count >3) 
             {
                 count = 1;
             }
-            for(int i=1;i<=2;i++) 
+            for(int i=1;i<=3;i++) 
             {
                 GameObject[] objetsWithTag = GameObject.FindGameObjectsWithTag("labyrinthe" + i);
 
                 foreach (GameObject obj in objetsWithTag) 
                 {
+                    Debug.Log("objet");
                     Renderer[] rendus = obj.GetComponentsInChildren<Renderer>();
                     foreach (Renderer unRendu in rendus) 
                     {
