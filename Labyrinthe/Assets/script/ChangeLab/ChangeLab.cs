@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ChangeLab : MonoBehaviour
 {
-    public int count;
+    public static int count;
+
     // Start is called before the first frame update
     void Start()
     {

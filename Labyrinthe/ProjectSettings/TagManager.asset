@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - labyrinthe2
+  - labyrinthe3
+  - labyrinthe1
+  - color1
+  - colo2
+  - colo3
   layers:
   - Default
   - TransparentFX
